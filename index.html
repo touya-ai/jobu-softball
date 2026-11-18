@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="上武大学 軟式野球部の紹介・新入部員募集サイト">
+<title>上武大学 軟式野球部 | TEAM JOBU</title>
+<style>
+:root{--navy:#102d50;--blue:#2477bd;--sky:#eaf5fc;--ink:#1c2b3a;--muted:#607286;--line:#dce6ee}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"Noto Sans JP",system-ui,-apple-system,sans-serif;color:var(--ink);line-height:1.75;background:#fff}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{height:76px;background:#fff;display:flex;align-items:center;position:sticky;top:0;z-index:5;border-bottom:1px solid var(--line)}
+.head{display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:12px;color:var(--navy);font-weight:900;line-height:1.15}.mark{width:42px;height:42px;border-radius:12px;background:var(--navy);color:white;display:grid;place-items:center;font-weight:900;letter-spacing:-2px}.brand small{display:block;font-size:10px;letter-spacing:2px;color:var(--blue);margin-bottom:4px}
+nav{display:flex;gap:22px;font-size:13px;font-weight:700;color:#344b61}nav a:hover{color:var(--blue)}.menu{display:none}
+.hero{min-height:540px;display:flex;align-items:center;color:#fff;background:linear-gradient(90deg,rgba(8,30,55,.88),rgba(8,30,55,.25)),url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=2000&q=85') center/cover}
+.hero-inner{padding:80px 0}.eyebrow{font-size:12px;letter-spacing:3px;font-weight:800;color:#a9d9ff}.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.2;margin:16px 0;font-weight:900;letter-spacing:.03em}.hero p{font-size:17px;max-width:540px;color:#e4eff8}.cta{display:inline-block;background:#fff;color:var(--navy);padding:13px 24px;border-radius:5px;font-weight:800;margin-top:18px}.cta.blue{background:var(--blue);color:#fff}
+section{padding:76px 0}.section-head{margin-bottom:30px}.section-head small{color:var(--blue);letter-spacing:3px;font-weight:900}.section-head h2{font-size:32px;color:var(--navy);margin:4px 0}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:white}.card img{width:100%;height:190px;object-fit:cover;display:block}.card-body{padding:20px}.card h3{margin:0 0 8px;color:var(--navy)}.card p{margin:0;color:var(--muted);font-size:14px}.tag{display:inline-block;font-size:11px;color:var(--blue);font-weight:900;letter-spacing:1px}
+.news{background:var(--sky)}.news-list{background:white;border-radius:10px;border:1px solid var(--line)}.news-item{padding:18px 22px;display:flex;gap:24px;border-bottom:1px solid var(--line)}.news-item:last-child{border:0}.date{font-size:13px;color:var(--blue);font-weight:800;white-space:nowrap}.news-item strong{color:var(--navy)}
+.join{background:linear-gradient(120deg,#102d50,#1c6096);color:#fff}.join h2{font-size:34px;margin:0 0 12px}.join p{color:#d9e9f7;max-width:650px}.join .cta{margin-top:12px}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.info img{width:100%;height:310px;object-fit:cover;border-radius:10px}.info ul{padding-left:20px;color:var(--muted)}
+footer{background:#0b2038;color:#d7e4f0;padding:34px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}.admin{position:fixed;right:16px;bottom:16px;background:var(--navy);color:white;border:0;border-radius:30px;padding:12px 18px;font-weight:800;box-shadow:0 5px 20px #102d5040;cursor:pointer;z-index:8}
+dialog{border:0;border-radius:12px;max-width:600px;width:92%;padding:26px;box-shadow:0 20px 80px #0004}dialog::backdrop{background:#071a2dcc}dialog h2{margin-top:0;color:var(--navy)}label{display:block;font-size:13px;font-weight:800;margin:12px 0 5px}input,textarea{width:100%;padding:11px;border:1px solid #cbd8e3;border-radius:6px;font:inherit}textarea{min-height:90px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}button.action{border:0;border-radius:6px;background:var(--blue);color:white;padding:11px 16px;font-weight:800;cursor:pointer}button.secondary{background:#e8eef4;color:var(--navy)}.hint{font-size:12px;color:var(--muted)}
+@media(max-width:760px){nav{display:none}.menu{display:block;border:0;background:var(--sky);padding:9px 12px;border-radius:6px;color:var(--navy)}.grid{grid-template-columns:1fr}.hero{min-height:490px}.hero-inner{padding:65px 0}.info{grid-template-columns:1fr}.news-item{gap:10px;flex-direction:column}.foot{display:block}}
+</style></head>
+<body>
+<header><div class="wrap head"><a class="brand" href="#"><span class="mark">J</span><span><small>JOBU UNIVERSITY</small>上武大学 軟式野球部</span></a><nav><a href="#about">ABOUT</a><a href="#news">NEWS</a><a href="#team">TEAM</a><a href="#join">JOIN US</a></nav><button class="menu" onclick="document.querySelector('#join').scrollIntoView()">入部案内</button></div></header>
+<main>
+<div class="hero"><div class="wrap hero-inner"><div class="eyebrow">JOBU UNIVERSITY · RUBBER BASEBALL</div><h1>本気で楽しむ。<br>本気で勝つ。</h1><p>仲間とともに成長し、大学野球の一瞬一瞬を全力で。上武大学 軟式野球部の活動を紹介します。</p><a class="cta" href="#join">新入部員 募集中　→</a></div></div>
+<section id="about"><div class="wrap"><div class="section-head"><small>ABOUT US</small><h2>軟式野球部について</h2><p>私たちのチームのこと、活動のこと。</p></div><div class="info"><div><h3>大学生活に、熱中できる場所を。</h3><p>上武大学軟式野球部の紹介ページです。チームの目標や活動内容、練習の雰囲気などを掲載していきます。</p><ul><li>活動場所：［グラウンド名を入力］</li><li>活動日：［曜日・時間を入力］</li><li>所属リーグ・大会：［正式名称を入力］</li></ul></div><img src="https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&w=1000&q=80" alt="野球場のイメージ"></div></div></section>
+<section class="news" id="news"><div class="wrap"><div class="section-head"><small>NEWS</small><h2>お知らせ</h2><p>最新情報をお届けします。</p></div><div class="news-list" id="newsList"></div></div></section>
+<section id="team"><div class="wrap"><div class="section-head"><small>TEAM</small><h2>チームを知る</h2><p>入部前に知ってほしい、私たちのこと。</p></div><div class="grid">
+<article class="card"><img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=900&q=80" alt="野球の練習"><div class="card-body"><span class="tag">PRACTICE</span><h3>練習・活動</h3><p>練習場所や活動スケジュール、普段の様子を紹介します。</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1471295253337-3ceaaedca402?auto=format&fit=crop&w=900&q=80" alt="野球の試合"><div class="card-body"><span class="tag">GAME</span><h3>試合・大会</h3><p>公式戦の日程や試合結果、大会での活動を掲載します。</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1529768167801-9173d94c2a42?auto=format&fit=crop&w=900&q=80" alt="野球用具"><div class="card-body"><span class="tag">MEMBER</span><h3>選手・スタッフ</h3><p>部員やスタッフの紹介を掲載予定です。</p></div></article>
+</div></div></section>
+<section class="join" id="join"><div class="wrap"><span class="eyebrow">JOIN OUR TEAM</span><h2>一緒に野球をしよう。</h2><p>経験者はもちろん、大学でも野球を続けたい人、新しい仲間と挑戦したい人を歓迎します。練習見学・体験参加について、まずはお気軽にお問い合わせください。</p><a class="cta" href="mailto:［連絡先メールアドレス］">入部・見学について問い合わせる</a></div></section>
+</main>
+<footer><div class="wrap foot"><div><strong>上武大学 軟式野球部</strong><br>JOBU UNIVERSITY RUBBER BASEBALL</div><div>※本ページは公開前の試作版です。大学公認の公式サイトではありません。<br>© JOBU UNIVERSITY RUBBER BASEBALL (draft)</div></div></footer>
+<button class="admin" onclick="openAdmin()">編集・お知らせ更新</button>
+<dialog id="editor"><h2>サイト更新メニュー</h2><p class="hint">この試作版では、編集内容はこのブラウザ内に保存されます。公開サイト全体で共有するにはCMS等への接続が必要です。</p>
+<label>お知らせの日付</label><input id="nDate" placeholder="2026.04.01">
+<label>お知らせのタイトル</label><input id="nTitle" placeholder="春季リーグ戦のお知らせ">
+<label>お知らせ本文</label><textarea id="nBody" placeholder="内容を入力してください"></textarea>
+<div class="actions"><button class="action" onclick="addNews()">お知らせを追加</button><button class="action secondary" onclick="exportNews()">データを書き出す</button><button class="action secondary" onclick="document.querySelector('#importFile').click()">データを読み込む</button><button class="action secondary" onclick="document.querySelector('#editor').close()">閉じる</button></div><input type="file" id="importFile" accept="application/json" hidden onchange="importNews(event)"><p class="hint">※公開前に、活動日・場所・連絡先・実績・写真を実際の情報に差し替えてください。</p></dialog>
+<script>
+const defaults=[
+ {date:"INFO",title:"新入部員・練習見学を受け付けています",body:"見学・体験参加をご希望の方は、部の連絡先までお問い合わせください。"},
+ {date:"UPDATE",title:"公式サイトを公開準備中です",body:"活動情報や試合結果を順次更新していきます。"}
+];
+function getNews(){try{return JSON.parse(localStorage.getItem("jobuNews"))||defaults}catch(e){return defaults}}
+function renderNews(){document.getElementById("newsList").innerHTML=getNews().map(n=>`<div class="news-item"><span class="date">${esc(n.date)}</span><div><strong>${esc(n.title)}</strong><div class="hint">${esc(n.body)}</div></div></div>`).join("")}
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function openAdmin(){document.getElementById("editor").showModal()}
+function addNews(){let date=nDate.value.trim(),title=nTitle.value.trim(),body=nBody.value.trim();if(!title){alert("タイトルを入力してください");return}let arr=getNews();arr.unshift({date:date||"NEW",title,body});localStorage.setItem("jobuNews",JSON.stringify(arr));nDate.value=nTitle.value=nBody.value="";renderNews();alert("このブラウザに保存しました")}
+function exportNews(){let b=new Blob([JSON.stringify(getNews(),null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="jobu-news.json";a.click();URL.revokeObjectURL(a.href)}
+function importNews(e){let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{let d=JSON.parse(r.result);if(!Array.isArray(d))throw 0;localStorage.setItem("jobuNews",JSON.stringify(d));renderNews();alert("読み込みました")}catch(_){alert("JSONデータを確認してください")}};r.readAsText(f)}
+renderNews();
+</script></body></html>
